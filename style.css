@@ -1,7 +1,5 @@
 .container {
   margin-bottom: 80px;
-  display: block;
-  overflow: hidden;
 }
 
 .orange-bg {
@@ -86,11 +84,8 @@ footer {
 }
 @media only screen and (max-width: 500px) {
   .navmenu {
-    position: fixed;
   }
 }
 
 .navmenu {
-  position: sticky;
-  top: 0px;
 }
