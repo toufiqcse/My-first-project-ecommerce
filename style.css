@@ -1,5 +1,7 @@
 .container {
   margin-bottom: 80px;
+  display: block;
+  overflow: hidden;
 }
 
 .orange-bg {
@@ -73,4 +75,22 @@ card-footer {
 }
 footer {
   text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .phone {
+    margin-top: 723px;
+    width: 97%;
+    padding-left: 10px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .navmenu {
+    position: fixed;
+  }
+}
+
+.navmenu {
+  position: sticky;
+  top: 0px;
 }
